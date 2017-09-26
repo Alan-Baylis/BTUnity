@@ -50,6 +50,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BehaviorTree\MathTree.cs" />
+    <Compile Include="Assets\Scripts\BehaviorTree\MonoNodes\MonoBreakpointNode.cs" />
+    <Compile Include="Assets\Scripts\BehaviorTree\MonoNodes\MonoInverterNode.cs" />
+    <Compile Include="Assets\Scripts\BehaviorTree\MonoNodes\MonoRepeaterNode.cs" />
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\ActionNode.cs" />
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\BreakpointNode.cs" />
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\FakeNode.cs" />

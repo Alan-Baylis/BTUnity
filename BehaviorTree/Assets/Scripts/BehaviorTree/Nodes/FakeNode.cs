@@ -1,8 +1,11 @@
-﻿namespace BehaviorTree.Nodes
+﻿using UnityEngine;
+
+namespace BehaviorTree.Nodes
 {
     public class FakeNode : Node
     {
-        private readonly NodeState _state;
+        [SerializeField]
+        private NodeState _state;
 
         public FakeNode(NodeState state)
         {

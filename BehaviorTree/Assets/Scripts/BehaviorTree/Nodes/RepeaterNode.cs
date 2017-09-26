@@ -6,22 +6,17 @@ namespace BehaviorTree.Nodes
 {
     public class RepeaterNode : Node
     {
-        [SerializeField]
-        private NodeState _waitForState;
+        private NodeState WaitForState { get; set; }
 
-        [Tooltip("Use -1 for infinite")]
-        [SerializeField]
-        private int _numberOfRepeats;
+        private int NumberOfRepeats { get; set; }
 
-        public Node Node { get; private set; }
+        public Node Node { get; set; }
 
-        /// <param name="waitForState">Evaluate until the node returns this state.</param>
-        /// <param name="numberOfRepeats">Use -1 for infinite repeats</param>
-        /// <param name="node"></param>
+
         public RepeaterNode(NodeState waitForState, int numberOfRepeats, Node node)
         {
-            this._waitForState = waitForState;
-            this._numberOfRepeats = numberOfRepeats;
+            WaitForState = waitForState;
+            NumberOfRepeats = numberOfRepeats;
             this.Node = node;
         }
 
@@ -29,10 +24,10 @@ namespace BehaviorTree.Nodes
         public override  NodeState Evaluate()
         {
             int counter = 0;
-            while (counter != this._numberOfRepeats)
+            while (counter != this.NumberOfRepeats)
             {
                 NodeState result = this.Node.Evaluate();
-                if (result == this._waitForState)
+                if (result == this.WaitForState)
                 {
                     this.CurrentState = result;
                     return this.CurrentState;

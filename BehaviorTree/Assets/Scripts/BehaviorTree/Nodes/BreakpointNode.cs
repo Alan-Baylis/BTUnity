@@ -5,22 +5,23 @@ namespace BehaviorTree.Nodes
 {
     public class BreakpointNode : Node
     {
-        private readonly Action _action;
-        private readonly NodeState _state;
+        public Action Action { get; set; }
 
-        public BreakpointNode(NodeState state, Action action)
+        public NodeState StateToSet { get; set; }
+
+        public BreakpointNode(Action action, NodeState stateToSet)
         {
-            this._state = state;
-            if (action == null)
-                this._action = () => { Debug.Log("Breakpoint Node hit!"); };
-            else
-                this._action = action;
-        }
+            this.Action = action;
+            this.StateToSet = stateToSet;
+        }       
 
         public override NodeState Evaluate()
         {
-            this._action();
-            this.CurrentState = this._state;
+            if (this.Action == null)
+                Debug.Log("Breakpoint Node hit!");
+            else
+                this.Action();
+            this.CurrentState = this.StateToSet;
             return this.CurrentState;
         }
     }

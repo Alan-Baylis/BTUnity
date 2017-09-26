@@ -18,119 +18,42 @@
             <state relative-caret-position="170">
               <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
-                <marker date="1506417395114" expanded="false" signature="6:32" ph="..." />
-                <marker date="1506417395114" expanded="true" signature="62:618" ph="{...}" />
-                <marker date="1506417395114" expanded="true" signature="137:616" ph="{...}" />
-                <marker date="1506417395114" expanded="true" signature="173:254" ph="{...}" />
-                <marker date="1506417395114" expanded="true" signature="385:517" ph="/* public delegate NodeStates NodeReturn(); ... */" />
+                <marker date="1506421486127" expanded="false" signature="6:32" ph="..." />
+                <marker date="1506421486127" expanded="true" signature="62:723" ph="{...}" />
+                <marker date="1506421486127" expanded="true" signature="121:721" ph="{...}" />
+                <marker date="1506421486127" expanded="true" signature="157:238" ph="{...}" />
+                <marker date="1506421486127" expanded="true" signature="344:469" ph="{...}" />
+                <marker date="1506421486127" expanded="true" signature="537:669" ph="/* public delegate NodeState NodeReturn(); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepeaterNode.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/RepeaterNode.cs">
+      <file leaf-file-name="MonoBreakpointNode.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes/MonoBreakpointNode.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="50" column="103" lean-forward="false" selection-start-line="50" selection-start-column="103" selection-end-line="50" selection-end-column="103" />
+            <state relative-caret-position="119">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding>
-                <marker date="1506417395359" expanded="true" signature="6:58" ph="..." />
-                <marker date="1506417395359" expanded="true" signature="88:2033" ph="{...}" />
-                <marker date="1506417395359" expanded="true" signature="127:2031" ph="{...}" />
-                <marker date="1506417395359" expanded="true" signature="362:562" ph="/// &lt;param name=&quot;waitForState&quot;&gt;Evaluate until the node returns this state.&lt;/param&gt; ... " />
-                <marker date="1506417395359" expanded="true" signature="646:796" ph="{...}" />
-                <marker date="1506417395359" expanded="true" signature="843:1326" ph="{...}" />
-                <marker date="1506417395359" expanded="true" signature="935:1227" ph="{...}" />
-                <marker date="1506417395359" expanded="true" signature="1056:1186" ph="{...}" />
-                <marker date="1506417395359" expanded="true" signature="1438:2025" ph="{...}" />
-                <marker date="1506417395359" expanded="true" signature="1530:1926" ph="{...}" />
-                <marker date="1506417395359" expanded="true" signature="1755:1885" ph="{...}" />
+                <marker date="1506421940722" expanded="true" signature="6:44" ph="..." />
+                <marker date="1506421940722" expanded="true" signature="78:368" ph="{...}" />
+                <marker date="1506421940722" expanded="true" signature="132:366" ph="{...}" />
+                <marker date="1506421940722" expanded="true" signature="273:360" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectorNode.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SelectorNode.cs">
+      <file leaf-file-name="MonoInverterNode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes/MonoInverterNode.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="102">
+              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
-                <marker date="1506417395201" expanded="true" signature="6:66" ph="..." />
-                <marker date="1506417395201" expanded="true" signature="96:1470" ph="{...}" />
-                <marker date="1506417395201" expanded="true" signature="135:1468" ph="{...}" />
-                <marker date="1506417395201" expanded="true" signature="334:386" ph="{...}" />
-                <marker date="1506417395201" expanded="true" signature="388:546" ph="/* If any of the children reports a success, ... */" />
-                <marker date="1506417395201" expanded="true" signature="629:1462" ph="{...}" />
-                <marker date="1506417395201" expanded="true" signature="680:1363" ph="{...}" />
-                <marker date="1506417395201" expanded="true" signature="860:1349" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SequenceNode.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SequenceNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-              <folding>
-                <marker date="1506417395044" expanded="true" signature="63:1377" ph="{...}" />
-                <marker date="1506417395044" expanded="true" signature="102:1375" ph="{...}" />
-                <marker date="1506417395044" expanded="true" signature="312:360" ph="{...}" />
-                <marker date="1506417395044" expanded="true" signature="362:488" ph="/* If any child node returns a failure, the entire node fails. ... */" />
-                <marker date="1506417395044" expanded="true" signature="533:1369" ph="{...}" />
-                <marker date="1506417395044" expanded="true" signature="627:1233" ph="{...}" />
-                <marker date="1506417395044" expanded="true" signature="682:1219" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InverterNode.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/InverterNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-              <folding>
-                <marker date="1506417395254" expanded="true" signature="28:1136" ph="{...}" />
-                <marker date="1506417395254" expanded="true" signature="67:1134" ph="{...}" />
-                <marker date="1506417395254" expanded="true" signature="269:319" ph="{...}" />
-                <marker date="1506417395254" expanded="true" signature="476:1128" ph="{...}" />
-                <marker date="1506417395254" expanded="true" signature="528:1118" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionNode.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/ActionNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-              <folding>
-                <marker date="1506417181577" expanded="true" signature="28:1365" ph="{...}" />
-                <marker date="1506417181577" expanded="true" signature="65:1363" ph="{...}" />
-                <marker date="1506417181577" expanded="true" signature="278:453" ph="/* Because this node contains no logic itself, the logic must be passed in in the form of ... */" />
-                <marker date="1506417181577" expanded="true" signature="506:561" ph="{...}" />
-                <marker date="1506417181577" expanded="true" signature="563:665" ph="/* Evaluates the node using the passed in delegate and ... */" />
-                <marker date="1506417181577" expanded="true" signature="710:1357" ph="{...}" />
-                <marker date="1506417181577" expanded="true" signature="756:1347" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FakeNode.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/FakeNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <marker date="1506417395297" expanded="true" signature="28:359" ph="{...}" />
-                <marker date="1506417395297" expanded="true" signature="63:357" ph="{...}" />
-                <marker date="1506417395297" expanded="true" signature="154:202" ph="{...}" />
-                <marker date="1506417395297" expanded="true" signature="248:351" ph="{...}" />
+                <marker date="1506421940868" expanded="false" signature="6:44" ph="..." />
+                <marker date="1506421940868" expanded="true" signature="78:364" ph="{...}" />
+                <marker date="1506421940868" expanded="true" signature="130:362" ph="{...}" />
+                <marker date="1506421940868" expanded="true" signature="269:356" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -139,14 +62,127 @@
       <file leaf-file-name="BreakpointNode.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/BreakpointNode.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <marker date="1506417168217" expanded="true" signature="6:32" ph="..." />
-                <marker date="1506417168217" expanded="true" signature="62:659" ph="{...}" />
-                <marker date="1506417168217" expanded="true" signature="103:657" ph="{...}" />
-                <marker date="1506417168217" expanded="true" signature="256:474" ph="{...}" />
-                <marker date="1506417168217" expanded="true" signature="520:651" ph="{...}" />
+                <marker date="1506421940917" expanded="false" signature="6:32" ph="..." />
+                <marker date="1506421940917" expanded="true" signature="62:672" ph="{...}" />
+                <marker date="1506421940917" expanded="true" signature="103:670" ph="{...}" />
+                <marker date="1506421940917" expanded="true" signature="271:367" ph="{...}" />
+                <marker date="1506421940917" expanded="true" signature="421:664" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathTree.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MathTree.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+              <folding>
+                <marker date="1506420950375" expanded="true" signature="6:149" ph="..." />
+                <marker date="1506420950375" expanded="true" signature="173:4426" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="217:4424" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="971:1197" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="1033:1187" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="1324:2685" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="2084:2557" ph="/* this._nodeObjects.Add(new KeyValuePair&lt;Node, GameObject&gt;(rootNode, rootNodeBox)); ... */" />
+                <marker date="1506420950375" expanded="true" signature="2721:3440" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="2838:3430" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="2899:3416" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="3491:3609" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="3650:3859" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="3912:4007" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="4058:4152" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="4200:4291" ph="{...}" />
+                <marker date="1506420950375" expanded="true" signature="4320:4418" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepeaterNode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/RepeaterNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <marker date="1506421308191" expanded="false" signature="6:58" ph="..." />
+                <marker date="1506421308191" expanded="true" signature="88:1035" ph="{...}" />
+                <marker date="1506421308191" expanded="true" signature="127:1033" ph="{...}" />
+                <marker date="1506421308191" expanded="true" signature="544:1027" ph="{...}" />
+                <marker date="1506421308191" expanded="true" signature="636:928" ph="{...}" />
+                <marker date="1506421308191" expanded="true" signature="757:887" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectorNode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SelectorNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <marker date="1506421940797" expanded="false" signature="6:66" ph="..." />
+                <marker date="1506421940797" expanded="true" signature="96:1164" ph="{...}" />
+                <marker date="1506421940797" expanded="true" signature="135:1162" ph="{...}" />
+                <marker date="1506421940797" expanded="true" signature="245:403" ph="/* If any of the children reports a success, ... */" />
+                <marker date="1506421940797" expanded="true" signature="448:1156" ph="{...}" />
+                <marker date="1506421940797" expanded="true" signature="499:1057" ph="{...}" />
+                <marker date="1506421940797" expanded="true" signature="554:1043" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SequenceNode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SequenceNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <marker date="1506421940575" expanded="true" signature="6:52" ph="..." />
+                <marker date="1506421940575" expanded="true" signature="82:1273" ph="{...}" />
+                <marker date="1506421940575" expanded="true" signature="121:1271" ph="{...}" />
+                <marker date="1506421940575" expanded="true" signature="258:384" ph="/* If any child node returns a failure, the entire node fails. ... */" />
+                <marker date="1506421940575" expanded="true" signature="429:1265" ph="{...}" />
+                <marker date="1506421940575" expanded="true" signature="523:1129" ph="{...}" />
+                <marker date="1506421940575" expanded="true" signature="578:1115" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InverterNode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/InverterNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <marker date="1506421355515" expanded="true" signature="48:1072" ph="{...}" />
+                <marker date="1506421355515" expanded="true" signature="87:1070" ph="{...}" />
+                <marker date="1506421355515" expanded="true" signature="412:1064" ph="{...}" />
+                <marker date="1506421355515" expanded="true" signature="464:1054" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionNode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/ActionNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <folding>
+                <marker date="1506417181577" expanded="true" signature="28:1365" ph="{...}" />
+                <marker date="1506417181577" expanded="true" signature="65:1363" ph="{...}" />
+                <marker date="1506417181577" expanded="true" signature="278:453" ph="/* Because this node contains no logic itself, the logic must be passed in in the form of ... */" />
+                <marker date="1506417181577" expanded="true" signature="506:561" ph="{...}" />
+                <marker date="1506417181577" expanded="true" signature="563:665" ph="/* Evaluates the node using the passed in delegate and ... */" />
+                <marker date="1506417181577" expanded="true" signature="710:1357" ph="{...}" />
+                <marker date="1506417181577" expanded="true" signature="756:1347" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -166,26 +202,35 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/InverterNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/FakeNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SequenceNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/Node.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SelectorNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/ActionNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ThreadedJob.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/RepeaterNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/BreakpointNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/FakeNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SelectorNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes/MonoInverterNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/ActionNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes/MonoBreakpointNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MathTree.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Node.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/Node.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/BreakpointNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/FakeNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/ActionNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ThreadedJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MathTree.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/FakeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/RepeaterNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SelectorNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/InverterNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SequenceNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SelectorNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/RepeaterNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/Node.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/BreakpointNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes/MonoInverterNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes/MonoBreakpointNode.cs" />
       </list>
     </option>
   </component>
@@ -218,7 +263,65 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BehaviorTree (1 project)" />
+              <option name="myItemId" value="BehaviorTree (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BehaviorTree (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BehaviorTree (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BehaviorTree" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BehaviorTree (2 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -248,7 +351,37 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BehaviorTree (1 project)" />
+              <option name="myItemId" value="BehaviorTree (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BehaviorTree" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoNodes" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BehaviorTree (2 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -312,12 +445,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506413182398</updated>
-      <workItem from="1506413185225" duration="4178000" />
+      <workItem from="1506413185225" duration="8704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4178000" />
+    <option name="totallyTimeSpent" value="8704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,51 +495,135 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/Node.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ThreadedJob.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="731">
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
-            <marker date="1506417395114" expanded="false" signature="6:32" ph="..." />
-            <marker date="1506417395114" expanded="true" signature="62:618" ph="{...}" />
-            <marker date="1506417395114" expanded="true" signature="137:616" ph="{...}" />
-            <marker date="1506417395114" expanded="true" signature="173:254" ph="{...}" />
-            <marker date="1506417395114" expanded="true" signature="385:517" ph="/* public delegate NodeStates NodeReturn(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/BreakpointNode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <marker date="1506417168217" expanded="true" signature="6:32" ph="..." />
-            <marker date="1506417168217" expanded="true" signature="62:659" ph="{...}" />
-            <marker date="1506417168217" expanded="true" signature="103:657" ph="{...}" />
-            <marker date="1506417168217" expanded="true" signature="256:474" ph="{...}" />
-            <marker date="1506417168217" expanded="true" signature="520:651" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="51:1131" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="208:508" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="226:380" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="392:502" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="542:633" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="665:703" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="834:924" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="957:1045" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="988:1039" ph="{...}" />
+            <marker date="1506417922225" expanded="true" signature="1068:1129" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/FakeNode.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding>
-            <marker date="1506417395297" expanded="true" signature="28:359" ph="{...}" />
-            <marker date="1506417395297" expanded="true" signature="63:357" ph="{...}" />
-            <marker date="1506417395297" expanded="true" signature="154:202" ph="{...}" />
-            <marker date="1506417395297" expanded="true" signature="248:351" ph="{...}" />
+            <marker date="1506421130382" expanded="true" signature="48:395" ph="{...}" />
+            <marker date="1506421130382" expanded="true" signature="83:393" ph="{...}" />
+            <marker date="1506421130382" expanded="true" signature="190:238" ph="{...}" />
+            <marker date="1506421130382" expanded="true" signature="284:387" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MathTree.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding>
+            <marker date="1506420950375" expanded="true" signature="6:149" ph="..." />
+            <marker date="1506420950375" expanded="true" signature="173:4426" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="217:4424" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="971:1197" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="1033:1187" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="1324:2685" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="2084:2557" ph="/* this._nodeObjects.Add(new KeyValuePair&lt;Node, GameObject&gt;(rootNode, rootNodeBox)); ... */" />
+            <marker date="1506420950375" expanded="true" signature="2721:3440" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="2838:3430" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="2899:3416" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="3491:3609" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="3650:3859" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="3912:4007" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="4058:4152" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="4200:4291" ph="{...}" />
+            <marker date="1506420950375" expanded="true" signature="4320:4418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/RepeaterNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1506421308191" expanded="false" signature="6:58" ph="..." />
+            <marker date="1506421308191" expanded="true" signature="88:1035" ph="{...}" />
+            <marker date="1506421308191" expanded="true" signature="127:1033" ph="{...}" />
+            <marker date="1506421308191" expanded="true" signature="544:1027" ph="{...}" />
+            <marker date="1506421308191" expanded="true" signature="636:928" ph="{...}" />
+            <marker date="1506421308191" expanded="true" signature="757:887" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SelectorNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1506421940797" expanded="false" signature="6:66" ph="..." />
+            <marker date="1506421940797" expanded="true" signature="96:1164" ph="{...}" />
+            <marker date="1506421940797" expanded="true" signature="135:1162" ph="{...}" />
+            <marker date="1506421940797" expanded="true" signature="245:403" ph="/* If any of the children reports a success, ... */" />
+            <marker date="1506421940797" expanded="true" signature="448:1156" ph="{...}" />
+            <marker date="1506421940797" expanded="true" signature="499:1057" ph="{...}" />
+            <marker date="1506421940797" expanded="true" signature="554:1043" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SequenceNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <marker date="1506421940575" expanded="true" signature="6:52" ph="..." />
+            <marker date="1506421940575" expanded="true" signature="82:1273" ph="{...}" />
+            <marker date="1506421940575" expanded="true" signature="121:1271" ph="{...}" />
+            <marker date="1506421940575" expanded="true" signature="258:384" ph="/* If any child node returns a failure, the entire node fails. ... */" />
+            <marker date="1506421940575" expanded="true" signature="429:1265" ph="{...}" />
+            <marker date="1506421940575" expanded="true" signature="523:1129" ph="{...}" />
+            <marker date="1506421940575" expanded="true" signature="578:1115" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/InverterNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <marker date="1506421355515" expanded="true" signature="48:1072" ph="{...}" />
+            <marker date="1506421355515" expanded="true" signature="87:1070" ph="{...}" />
+            <marker date="1506421355515" expanded="true" signature="412:1064" ph="{...}" />
+            <marker date="1506421355515" expanded="true" signature="464:1054" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/ActionNode.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
           <folding>
             <marker date="1506417181577" expanded="true" signature="28:1365" ph="{...}" />
             <marker date="1506417181577" expanded="true" signature="65:1363" ph="{...}" />
@@ -419,69 +636,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/InverterNode.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/Node.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
-            <marker date="1506417395254" expanded="true" signature="28:1136" ph="{...}" />
-            <marker date="1506417395254" expanded="true" signature="67:1134" ph="{...}" />
-            <marker date="1506417395254" expanded="true" signature="269:319" ph="{...}" />
-            <marker date="1506417395254" expanded="true" signature="476:1128" ph="{...}" />
-            <marker date="1506417395254" expanded="true" signature="528:1118" ph="{...}" />
+            <marker date="1506421486127" expanded="false" signature="6:32" ph="..." />
+            <marker date="1506421486127" expanded="true" signature="62:723" ph="{...}" />
+            <marker date="1506421486127" expanded="true" signature="121:721" ph="{...}" />
+            <marker date="1506421486127" expanded="true" signature="157:238" ph="{...}" />
+            <marker date="1506421486127" expanded="true" signature="344:469" ph="{...}" />
+            <marker date="1506421486127" expanded="true" signature="537:669" ph="/* public delegate NodeState NodeReturn(); ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SequenceNode.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/BreakpointNode.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1506417395044" expanded="true" signature="63:1377" ph="{...}" />
-            <marker date="1506417395044" expanded="true" signature="102:1375" ph="{...}" />
-            <marker date="1506417395044" expanded="true" signature="312:360" ph="{...}" />
-            <marker date="1506417395044" expanded="true" signature="362:488" ph="/* If any child node returns a failure, the entire node fails. ... */" />
-            <marker date="1506417395044" expanded="true" signature="533:1369" ph="{...}" />
-            <marker date="1506417395044" expanded="true" signature="627:1233" ph="{...}" />
-            <marker date="1506417395044" expanded="true" signature="682:1219" ph="{...}" />
+            <marker date="1506421940917" expanded="false" signature="6:32" ph="..." />
+            <marker date="1506421940917" expanded="true" signature="62:672" ph="{...}" />
+            <marker date="1506421940917" expanded="true" signature="103:670" ph="{...}" />
+            <marker date="1506421940917" expanded="true" signature="271:367" ph="{...}" />
+            <marker date="1506421940917" expanded="true" signature="421:664" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/SelectorNode.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes/MonoInverterNode.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="102">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <marker date="1506417395201" expanded="true" signature="6:66" ph="..." />
-            <marker date="1506417395201" expanded="true" signature="96:1470" ph="{...}" />
-            <marker date="1506417395201" expanded="true" signature="135:1468" ph="{...}" />
-            <marker date="1506417395201" expanded="true" signature="334:386" ph="{...}" />
-            <marker date="1506417395201" expanded="true" signature="388:546" ph="/* If any of the children reports a success, ... */" />
-            <marker date="1506417395201" expanded="true" signature="629:1462" ph="{...}" />
-            <marker date="1506417395201" expanded="true" signature="680:1363" ph="{...}" />
-            <marker date="1506417395201" expanded="true" signature="860:1349" ph="{...}" />
+            <marker date="1506421940868" expanded="false" signature="6:44" ph="..." />
+            <marker date="1506421940868" expanded="true" signature="78:364" ph="{...}" />
+            <marker date="1506421940868" expanded="true" signature="130:362" ph="{...}" />
+            <marker date="1506421940868" expanded="true" signature="269:356" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Nodes/RepeaterNode.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BehaviorTree/MonoNodes/MonoBreakpointNode.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="50" column="103" lean-forward="false" selection-start-line="50" selection-start-column="103" selection-end-line="50" selection-end-column="103" />
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
-            <marker date="1506417395359" expanded="true" signature="6:58" ph="..." />
-            <marker date="1506417395359" expanded="true" signature="88:2033" ph="{...}" />
-            <marker date="1506417395359" expanded="true" signature="127:2031" ph="{...}" />
-            <marker date="1506417395359" expanded="true" signature="362:562" ph="/// &lt;param name=&quot;waitForState&quot;&gt;Evaluate until the node returns this state.&lt;/param&gt; ... " />
-            <marker date="1506417395359" expanded="true" signature="646:796" ph="{...}" />
-            <marker date="1506417395359" expanded="true" signature="843:1326" ph="{...}" />
-            <marker date="1506417395359" expanded="true" signature="935:1227" ph="{...}" />
-            <marker date="1506417395359" expanded="true" signature="1056:1186" ph="{...}" />
-            <marker date="1506417395359" expanded="true" signature="1438:2025" ph="{...}" />
-            <marker date="1506417395359" expanded="true" signature="1530:1926" ph="{...}" />
-            <marker date="1506417395359" expanded="true" signature="1755:1885" ph="{...}" />
+            <marker date="1506421940722" expanded="true" signature="6:44" ph="..." />
+            <marker date="1506421940722" expanded="true" signature="78:368" ph="{...}" />
+            <marker date="1506421940722" expanded="true" signature="132:366" ph="{...}" />
+            <marker date="1506421940722" expanded="true" signature="273:360" ph="{...}" />
           </folding>
         </state>
       </provider>

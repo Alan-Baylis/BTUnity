@@ -1,11 +1,11 @@
-﻿namespace BehaviorTree.Nodes
+﻿using UnityEngine;
+
+namespace BehaviorTree.Nodes
 {
     public class InverterNode : Node
     {
-/* Child node to evaluate */
-        public Node Node { get; private set; }
+        public Node Node { get; set; }
 
-/* The constructor requires the child node that this inverter decorator wraps*/
         public InverterNode(Node node)
         {
             this.Node = node;

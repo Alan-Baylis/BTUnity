@@ -7,13 +7,8 @@ namespace BehaviorTree.Nodes
     public class SelectorNode : Node
     {
 /** The child nodes for this selector */
+        [SerializeField]
         protected List<Node> nodes;
-
-/** The constructor requires a list of child nodes to be passed in*/
-        public SelectorNode(List<Node> nodes)
-        {
-            this.nodes = nodes;
-        }
 
 /* If any of the children reports a success,
 the selector will immediately report a success upwards.
