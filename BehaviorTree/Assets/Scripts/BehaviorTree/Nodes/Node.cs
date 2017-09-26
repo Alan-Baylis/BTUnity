@@ -8,8 +8,8 @@ namespace BehaviorTree.Nodes
     {
         public enum NodeState
         {
-            Succes,
             Failure,
+            Succes,
             Running
         }
 

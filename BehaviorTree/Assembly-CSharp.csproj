@@ -61,7 +61,6 @@
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\RepeaterNode.cs" />
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\SelectorNode.cs" />
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\SequenceNode.cs" />
-    <Compile Include="Assets\Scripts\ThreadedJob.cs" />
     <Compile Include="Assets\Scripts\test.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/Program Files/Unity 5.5.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
