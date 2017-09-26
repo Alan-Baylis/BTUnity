@@ -32,7 +32,9 @@ namespace BehaviorTree
             /** Next up, we create the level 2 nodes. */
             var node2A = new ActionNode(AddTen);
             /** Node 2B is a selector which has node 3 as a child, so we'll pass node 3 to the constructor */
-            var node2B = new InverterNode(node3);
+            //var node2B = new InverterNode(node3);
+            var node2B = new RepeaterNode(node3, Node.NodeState.Failure, 100);
+            
             var node2C = new ActionNode(AddTen);
             /** Lastly, we have our root node. First, we prepare our list of children nodes to pass in */
             List<Node> rootChildren = new List<Node> {node2A, node2B, node2C};
