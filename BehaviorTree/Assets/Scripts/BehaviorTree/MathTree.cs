@@ -10,6 +10,9 @@ namespace BehaviorTree
     public class MathTree : MonoBehaviour
     {
         [SerializeField]
+        private EvaluateJob _evaluateJob;
+        
+        [SerializeField]
         public Color evaluatingColor;
         [SerializeField]
         public Color succeededColor;
@@ -20,6 +23,7 @@ namespace BehaviorTree
         private List<MonoNode> _nodes;
         
         public int targetValue = 20;
+        [SerializeField]
         private int _currentValue = 0;
 
         [SerializeField]
@@ -33,7 +37,7 @@ namespace BehaviorTree
             var node2A = new ActionNode(AddTen);
             /** Node 2B is a selector which has node 3 as a child, so we'll pass node 3 to the constructor */
             //var node2B = new InverterNode(node3);
-            var node2B = new RepeaterNode(node3, Node.NodeState.Failure, 100);
+            var node2B = new RepeaterNode(node3, Node.NodeState.Failure, 500);
             
             var node2C = new ActionNode(AddTen);
             /** Lastly, we have our root node. First, we prepare our list of children nodes to pass in */
@@ -46,21 +50,34 @@ namespace BehaviorTree
             this._nodes[2].node = node2B; 
             this._nodes[3].node = node3; 
             this._nodes[4].node = node2C; 
+            this._evaluateJob.OnEvaluateDone += EvaluateJobOnOnEvaluateDone;
+        }
+
+        private void EvaluateJobOnOnEvaluateDone()
+        {
+            this.UpdateBoxes();
         }
 
         /* We instantiate our nodes from the bottom up, and assign the children in that order */
         private void Start()
         {
             _valueLabel.text = _currentValue.ToString();
-            this._nodes[0].node.Evaluate();
-            UpdateBoxes();
+            this.UpdateBoxes();
         }
 
+        public void Evaluate()
+        {
+            this._evaluateJob.StartJob(this._nodes[0].node);
+            this.UpdateBoxes();
+        }
+        
         private void UpdateBoxes()
         {
 /** Update root node box */
+            this._valueLabel.text = _currentValue.ToString();
             foreach (MonoNode monoNode in this._nodes)
             {
+                monoNode.Refresh();
                 switch (monoNode.node.CurrentState)
                 {
                     case Node.NodeState.Succes:
@@ -86,7 +103,6 @@ namespace BehaviorTree
         private Node.NodeState AddTen()
         {
             _currentValue += 10;
-            _valueLabel.text = _currentValue.ToString();
             return _currentValue == targetValue ? Node.NodeState.Succes : Node.NodeState.Failure;
         }
 

@@ -50,6 +50,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BehaviorTree\EvaluateJob.cs" />
     <Compile Include="Assets\Scripts\BehaviorTree\MathTree.cs" />
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\ActionNode.cs" />
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\BreakpointNode.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\SelectorNode.cs" />
     <Compile Include="Assets\Scripts\BehaviorTree\Nodes\SequenceNode.cs" />
     <Compile Include="Assets\Scripts\ThreadedJob.cs" />
+    <Compile Include="Assets\Scripts\test.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/Program Files/Unity 5.5.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
