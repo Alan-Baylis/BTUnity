@@ -5,16 +5,21 @@ namespace BehaviorTree.Nodes
 {
     public class SequenceNode : Node
     {
-/** Chiildren nodes that belong to this sequence */
-        [SerializeField]
-        private readonly List<Node> _nodes;
+/** Children nodes that belong to this sequence */
+        public IEnumerable<Node> ChildrenNodes { get; protected set; }
+
         
+        public SequenceNode(IEnumerable<Node> childrenNodes)
+        {
+            this.ChildrenNodes = childrenNodes;
+        }
+
 /* If any child node returns a failure, the entire node fails.
 When all nodes return a success, the node reports a success. */
         public override NodeState Evaluate()
         {
             bool anyChildRunning = false;
-            foreach (Node node in _nodes)
+            foreach (Node node in ChildrenNodes)
             {
                 switch (node.Evaluate())
                 {

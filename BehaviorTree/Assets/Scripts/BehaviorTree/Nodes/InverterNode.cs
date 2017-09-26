@@ -4,17 +4,17 @@ namespace BehaviorTree.Nodes
 {
     public class InverterNode : Node
     {
-        public Node Node { get; set; }
+        public Node ChildNode { get; set; }
 
-        public InverterNode(Node node)
+        public InverterNode(Node childNode)
         {
-            this.Node = node;
+            this.ChildNode = childNode;
         }
 
 /* Reports a success if the child fails and a failure if the child succeeds. Running will report as running */
         public override NodeState Evaluate()
         {
-            switch (this.Node.Evaluate())
+            switch (this.ChildNode.Evaluate())
             {
                 case NodeState.Failure:
                     this.CurrentState = NodeState.Succes;

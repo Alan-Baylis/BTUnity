@@ -7,15 +7,20 @@ namespace BehaviorTree.Nodes
     public class SelectorNode : Node
     {
 /** The child nodes for this selector */
-        [SerializeField]
-        protected List<Node> nodes;
+        public IEnumerable<Node> ChildrenNodes { get; protected set; }
+
+
+        public SelectorNode(IEnumerable<Node> childrenNodes)
+        {
+            this.ChildrenNodes = childrenNodes;
+        }
 
 /* If any of the children reports a success,
 the selector will immediately report a success upwards.
 If all children fail, it will report a failure instead.*/
         public override NodeState Evaluate()
         {
-            foreach (Node node in nodes)
+            foreach (Node node in ChildrenNodes)
             {
                 switch (node.Evaluate())
                 {

@@ -6,18 +6,18 @@ namespace BehaviorTree.Nodes
 {
     public class RepeaterNode : Node
     {
-        private NodeState WaitForState { get; set; }
+        public NodeState WaitForState { get; set; }
 
-        private int NumberOfRepeats { get; set; }
+        public int NumberOfRepeats { get; set; }
 
-        public Node Node { get; set; }
+        public Node ChildNode { get; set; }
 
 
-        public RepeaterNode(NodeState waitForState, int numberOfRepeats, Node node)
+        public RepeaterNode(Node childNode, NodeState waitForState, int numberOfRepeats)
         {
-            WaitForState = waitForState;
-            NumberOfRepeats = numberOfRepeats;
-            this.Node = node;
+            this.ChildNode = childNode;
+            this.WaitForState = waitForState;
+            this.NumberOfRepeats = numberOfRepeats;
         }
 
         // TODO: Multithread?
@@ -26,7 +26,7 @@ namespace BehaviorTree.Nodes
             int counter = 0;
             while (counter != this.NumberOfRepeats)
             {
-                NodeState result = this.Node.Evaluate();
+                NodeState result = this.ChildNode.Evaluate();
                 if (result == this.WaitForState)
                 {
                     this.CurrentState = result;

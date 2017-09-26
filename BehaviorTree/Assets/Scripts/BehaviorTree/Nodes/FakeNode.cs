@@ -4,17 +4,16 @@ namespace BehaviorTree.Nodes
 {
     public class FakeNode : Node
     {
-        [SerializeField]
-        private NodeState _state;
+        public NodeState State { get; set; }
 
         public FakeNode(NodeState state)
         {
-            _state = state;
+            State = state;
         }
 
         public override NodeState Evaluate()
         {
-            this.CurrentState = this._state;
+            this.CurrentState = this.State;
             return this.CurrentState;
         }
     }

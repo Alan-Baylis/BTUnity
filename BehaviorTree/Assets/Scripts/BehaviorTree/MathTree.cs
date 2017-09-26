@@ -16,72 +16,59 @@ namespace BehaviorTree
         [SerializeField]
         public Color failedColor;
 
-        private List<Node> _nodes;
-        public SelectorNode rootNode;
-        public ActionNode node2A;
-        public InverterNode node2B;
-        public ActionNode node2C;
-        public ActionNode node3;
-        public GameObject rootNodeBox;
-        public GameObject node2ABox;
-        public GameObject node2BBox;
-        public GameObject node2CBox;
-        public GameObject node3Box;
+        [SerializeField]
+        private List<MonoNode> _nodes;
+        
         public int targetValue = 20;
         private int _currentValue = 0;
 
         [SerializeField]
-        private Text m_valueLabel;
+        private Text _valueLabel;
 
         private void Awake()
         {
-            foreach (Transform t in this.transform)
-            {
-                Node n = t.GetComponent<Node>();
-                if (n == null) continue;
-                this._nodes.Add(n);
-            }
-        }
-        
-        /* We instantiate our nodes from the bottom up, and assign the children in that order */
-        void Start()
-        {
-            /** The deepest-level node is Node 3, which has no children. */
-            node3 = new ActionNode(NotEqualToTarget);
+            /* The deepest-level node is Node 3, which has no children. */
+            var node3 = new ActionNode(NotEqualToTarget);
             /** Next up, we create the level 2 nodes. */
-            node2A = new ActionNode(AddTen);
+            var node2A = new ActionNode(AddTen);
             /** Node 2B is a selector which has node 3 as a child, so we'll pass node 3 to the constructor */
-            node2B = new InverterNode(node3);
-            node2C = new ActionNode(AddTen);
+            var node2B = new InverterNode(node3);
+            var node2C = new ActionNode(AddTen);
             /** Lastly, we have our root node. First, we prepare our list of children nodes to pass in */
             List<Node> rootChildren = new List<Node> {node2A, node2B, node2C};
             /** Then we create our root node object and pass in the list */
-            rootNode = new SelectorNode(rootChildren);
-//            this._nodeObjects.Add(new KeyValuePair<Node, GameObject>(rootNode, rootNodeBox));
-//            this._nodeObjects.Add(new KeyValuePair<Node, GameObject>(node2A, node2ABox));
-//            this._nodeObjects.Add(new KeyValuePair<Node, GameObject>(node2B, node2BBox));
-//            this._nodeObjects.Add(new KeyValuePair<Node, GameObject>(node2C, node2CBox));
-//            this._nodeObjects.Add(new KeyValuePair<Node, GameObject>(node3, node3Box));            
-            m_valueLabel.text = _currentValue.ToString();
-            rootNode.Evaluate();
+            var rootNode = new SelectorNode(rootChildren);
+
+            this._nodes[0].node = rootNode; 
+            this._nodes[1].node = node2A; 
+            this._nodes[2].node = node2B; 
+            this._nodes[3].node = node3; 
+            this._nodes[4].node = node2C; 
+        }
+
+        /* We instantiate our nodes from the bottom up, and assign the children in that order */
+        private void Start()
+        {
+            _valueLabel.text = _currentValue.ToString();
+            this._nodes[0].node.Evaluate();
             UpdateBoxes();
         }
 
         private void UpdateBoxes()
         {
 /** Update root node box */
-            foreach (KeyValuePair<Node, GameObject> node in this._nodeObjects)
+            foreach (MonoNode monoNode in this._nodes)
             {
-                switch (node.Key.CurrentState)
+                switch (monoNode.node.CurrentState)
                 {
                     case Node.NodeState.Succes:
-                        SetSucceeded(node.Value);
+                        SetSucceeded(monoNode.gameObject);
                         break;
                     case Node.NodeState.Failure:
-                        SetFailed(node.Value);
+                        SetFailed(monoNode.gameObject);
                         break;
                     case Node.NodeState.Running:
-                        SetEvaluating(node.Value);
+                        SetEvaluating(monoNode.gameObject);
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
@@ -97,7 +84,7 @@ namespace BehaviorTree
         private Node.NodeState AddTen()
         {
             _currentValue += 10;
-            m_valueLabel.text = _currentValue.ToString();
+            _valueLabel.text = _currentValue.ToString();
             return _currentValue == targetValue ? Node.NodeState.Succes : Node.NodeState.Failure;
         }
 
